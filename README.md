@@ -1,4 +1,4 @@
-# ezra converter
+# Kleine Randnotiz converter
 
 Converting data about right-wing incidents in Bremen, Germany as monitored by two NGOs on <https://keine-randnotiz.de>.
 
