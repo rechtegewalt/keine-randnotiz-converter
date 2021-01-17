@@ -8,11 +8,6 @@ We use an internal API to transform the data into another data format. So techni
 -   API: <https://keine-randnotiz.de/api/incidents>
 -   Data: <https://morph.io/rechtegewalt/kleine-randnotiz-converter>
 
-## Caveats
-
-1. Not consindering `endDates` for now
-2. Only using one location (the first in the array) if there are multiple.
-
 ## Usage
 
 For local development:
