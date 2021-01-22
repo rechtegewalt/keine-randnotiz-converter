@@ -48,7 +48,7 @@ for x in json_data:
         (k, x[k])
         for k in ("title", "city", "postal_code", "state", "latitude", "longitude")
     )
-    date["chronicler_name"] = "Kleine Randnotiz"
+    data["chronicler_name"] = "Kleine Randnotiz"
     data["rg_id"] = "kleinerandnotiz-" + str(x["id"])
     data["date"] = parser.parse(x["date"])
 
