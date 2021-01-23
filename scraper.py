@@ -51,6 +51,7 @@ for x in json_data:
     data["chronicler_name"] = "Kleine Randnotiz"
     data["rg_id"] = "kleinerandnotiz-" + str(x["id"])
     data["date"] = parser.parse(x["date"])
+    data["url"] = "https://keine-randnotiz.de"
 
     if data["date"] is None:
         print(x)
