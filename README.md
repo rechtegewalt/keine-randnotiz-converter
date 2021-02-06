@@ -1,4 +1,4 @@
-# Kleine Randnotiz converter
+# Keine Randnotiz converter
 
 Converting data about right-wing incidents in Bremen, Germany as monitored by two NGOs on <https://keine-randnotiz.de>.
 
@@ -6,7 +6,7 @@ We use an internal API to transform the data into another data format. So techni
 
 -   Website: <https://keine-randnotiz.de>
 -   API: <https://keine-randnotiz.de/api/incidents>
--   Data: <https://morph.io/rechtegewalt/kleine-randnotiz-converter>
+-   Data: <https://morph.io/rechtegewalt/keine-randnotiz-converter>
 
 ## Usage
 

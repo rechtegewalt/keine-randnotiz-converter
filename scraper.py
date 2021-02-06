@@ -29,7 +29,7 @@ tab_chronicles.upsert(
     {
         "iso3166_1": "DE",
         "iso3166_2": "DE-HB",
-        "chronicler_name": "Kleine Randnotiz",
+        "chronicler_name": "Keine Randnotiz",
         "chronicler_description": "keine-randnotiz.de ist ein unabhängiges Dokumentations- und Webprojekt von soliport - Betroffene rechter, rassistischer und antisemitischer Gewalt solidarisch beraten und unterstützen und des Mobilen Beratungsteams gegen Rechtsextremismus in Bremen und Bremerhaven (MBT).",
         "chronicler_url": "https://keine-randnotiz.de",
         "chronicle_source": "https://keine-randnotiz.de",
@@ -48,8 +48,8 @@ for x in json_data:
         (k, x[k])
         for k in ("title", "city", "postal_code", "state", "latitude", "longitude")
     )
-    data["chronicler_name"] = "Kleine Randnotiz"
-    data["rg_id"] = "kleinerandnotiz-" + str(x["id"])
+    data["chronicler_name"] = "Keine Randnotiz"
+    data["rg_id"] = "keinerandnotiz-" + str(x["id"])
     data["date"] = parser.parse(x["date"])
     data["url"] = "https://keine-randnotiz.de"
 
